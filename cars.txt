@@ -3,11 +3,11 @@ SECOND HAND CARS
 ____________________
 
 id                  - UNSIGNED INT - PRIMARY_KEY (NOT NULL, UNIQUE) - AUTO_INCREMENT
-brand               - VARCHAR(255)
-model               - VARCHAR(255)
-km_done             - VARCHAR(255)
+brand               - VARCHAR(255) - NOT NULL
+model               - VARCHAR(255) - NOT NULL
+km_done             - VARCHAR(255) - NOT NULL 
 country_origin      - VARCHAR(255)
 color               - VARCHAR(50)
-condition           - ENUM('ottime', 'buone', 'qualche danno')
-production_year     - YEAR
+condition           - ENUM('ottime', 'buone', 'qualche danno') - NOT NULL
+production_year     - YEAR - NOT NULL
 
